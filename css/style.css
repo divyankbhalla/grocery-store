@@ -139,3 +139,17 @@ html{
     margin-bottom: 1.5rem;
     position: relative;
 }
+
+.header .shopping-cart .box .fa-times{
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.header .shopping-cart .box .fa-times:hover{
+    color: var(--green);
+}
