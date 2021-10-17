@@ -153,3 +153,22 @@ html{
 .header .shopping-cart .box .fa-times:hover{
     color: var(--green);
 }
+
+.header .shopping-cart .box .fa-times img{
+    height: 10rem;
+}
+
+.header .shopping-cart .box .fa-times .content h3{
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+    color: var(--black);
+}
+
+.header .shopping-cart .box .fa-times .content span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.header .shopping-cart .box .fa-times .content span.multiply{
+    margin: 0.5rem;
+}
