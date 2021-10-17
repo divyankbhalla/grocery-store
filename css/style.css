@@ -131,3 +131,11 @@ html{
     width: 35rem;
     padding: 2rem;
 }
+
+.header .shopping-cart .box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
