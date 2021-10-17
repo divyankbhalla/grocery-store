@@ -35,6 +35,20 @@ html{
   scroll-behavior: smooth;
 }
 
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--green);
+    color: var(--white);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--black);
+}
+
 .header{
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -171,4 +185,14 @@ html{
 
 .header .shopping-cart .box .fa-times .content span.multiply{
     margin: 0.5rem;
+}
+
+.header .shopping-cart .total{
+    color: var(--light-color);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.header .shopping-cart .total span{
+    color: var(--black);
 }
