@@ -321,9 +321,6 @@ section{
 
 
 
-.space{
-    min-height: 30vh;
-}
 
 .footer{
     background: var(--light-bg);
@@ -381,6 +378,13 @@ section{
 .footer .box-container .box .payment{
     width: 100%;
     margin-top: 2rem;
+}
+
+.credits{
+    text-align: center;
+    background: var(--green);
+    color: var(--white);
+    font-size: 2rem;
 }
 
 
