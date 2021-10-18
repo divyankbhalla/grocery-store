@@ -138,12 +138,17 @@ html{
 .header .shopping-cart{
     position: absolute;
     top: 115%;
-    right: 2rem;
+    right: -105%;
     background: var(--white);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     width: 35rem;
     padding: 2rem;
+}
+
+.header .shopping-cart.active{
+    right: 2rem;
+    transition: .4s linear;
 }
 
 .header .shopping-cart .box{
@@ -195,4 +200,9 @@ html{
 
 .header .shopping-cart .total span{
     color: var(--black);
+}
+
+.header .shopping-cart .btn{
+    text-align: center;
+    width: 100%;
 }
