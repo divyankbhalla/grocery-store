@@ -35,6 +35,10 @@ html{
   scroll-behavior: smooth;
 }
 
+section{
+    padding: 3rem 9%;
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -317,7 +321,67 @@ html{
 
 
 
+.space{
+    min-height: 30vh;
+}
 
+.footer{
+    background: var(--light-bg);
+}
+
+.footer .box-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding-bottom: .5rem;
+}
+
+.footer .box-container .box a{
+    font-size: 1.4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    display: block;
+}
+
+.footer .box-container .box a:hover{
+    color: var(--green);
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--green);
+}
+
+.footer .box-container .box a i:hover{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box form input[type="email"]{
+    width: 100%;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    margin: 1rem 0;
+    text-transform: none;
+}
+
+.footer .box-container .box .payment{
+    width: 100%;
+    margin-top: 2rem;
+}
 
 
 
@@ -331,6 +395,10 @@ html{
 
     .header{
         padding: 2rem;
+    }
+
+    section{
+        padding: 3rem 2rem;
     }
 }
 
