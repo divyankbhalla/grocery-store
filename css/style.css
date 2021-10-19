@@ -53,6 +53,60 @@ section{
     background: var(--black);
 }
 
+.heading{
+    background: url(../image/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+.heading h1{
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.heading p{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.heading p a{
+    color: var(--black);
+    padding-right: .7rem;
+}
+
+.heading p a:hover{
+    color: var(--green);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+    border-bottom: var(--border);
+    color: var(--black);
+}
+
+.title a{
+    margin-left: auto;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.title a:hover{
+    color: var(--green);
+}
+
+.title span{
+    color: var(--green);
+    padding-left: .5rem;
+}
+
 .header{
   position: fixed;
   top: 0; left: 0; right: 0;
