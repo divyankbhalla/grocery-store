@@ -321,10 +321,38 @@ section{
     width: 100%;
 }
 
+.home #next-slide, #prev-slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    background: var(--white);
+    font-size: 3rem;
+    color: var(--black);
+    cursor: pointer;
+}
 
+.home #next-slide:hover{
+    background: var(--green);
+    color: var(--white);
+}
 
+.home #prev-slide:hover{
+    background: var(--green);
+    color: var(--white);
+}
 
+.home #next-slide{
+    right: 2rem;
+}
 
+.home #prev-slide{
+    left: 2rem;
+}
 
 
 
